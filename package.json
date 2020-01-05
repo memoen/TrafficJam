@@ -1,0 +1,37 @@
+{
+  "name": "rxtest",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open --port 4300 "
+  },
+  "keywords": [],
+  "private": true,
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.4.1",
+    "csv-loader": "^3.0.2",
+    "file-loader": "^5.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.1.2",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1",
+    "xml-loader": "^1.2.1"
+  },
+  "dependencies": {
+    "assets-webpack-plugin": "^3.9.10",
+    "lodash": "^4.17.15",
+    "rxjs": "^6.5.4",
+    "three": "^0.112.1",
+    "url-loader": "^3.0.0"
+  }
+}

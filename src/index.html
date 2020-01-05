@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        body{
+            margin: 0;
+        }
+        #root {
+            position: relative;
+        }
+
+        div#root div[id^="a"] {
+            height: 5px;
+            width: 10px;
+            background: #ffb652;
+            border: 1px solid #333;
+            position: absolute;
+        }
+        div#root div[id^="b"] {
+            height: 10px;
+            width: 10px;
+            background: #ff4234;
+            border: 1px solid #333;
+            position: absolute;
+        }
+
+        div#root div[id^="l"] {
+            height: 5px;
+            width: 5px;
+            background: #ff5353;
+            border: 1px solid #333;
+            position: absolute;
+        }
+
+        .lanos {
+            background: #874520 !important;
+        }
+
+        .gameMenu{
+            position: fixed;
+            bottom: 0;
+            height: 70px;
+            width: 90vw;
+            background: #d8d8d8;
+            margin-left: 5%;
+            margin-bottom: 20px;
+            padding: 10px;
+            border-radius: 15px;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .gameMenu > div{
+            height: 60px;
+            background: white;
+            width: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: 100;
+            box-shadow: 1px 1px 9px 0px #444;
+        }
+        }
+
+
+    </style>
+</head>
+<body>
+
+
+<canvas id="c" height="600px" width="700px"></canvas>
+<div id="root">
+
+</div>
+
+
+
+
+</body>
+</html>
